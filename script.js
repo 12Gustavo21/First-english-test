@@ -3,9 +3,9 @@
 //-Action
 //-Fantasy 
 //Questão 01
-let Comedy;
-let Action;
-let Fantasy;
+let Comedy = [];
+let Action = [];
+let Fantasy = [];
 
 //Dentro de cada array, insira 3 (TRÊS) Objetos, contendo:
 //-title:
@@ -53,8 +53,6 @@ Fantasy = [{
     director: "Ron Howard",
     year: "2000"
 }];
-
-console.log(Comedy);
 
 //*DESAFIO EXTRA*
 //Escolha uma variável e insira uma condição para ela, (condição de sua escolha), com a seguinte mensagem ao console:
